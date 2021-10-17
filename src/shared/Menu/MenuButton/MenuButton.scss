@@ -1,0 +1,11 @@
+.menu__btn{
+  margin-right: 20px;
+
+  text-transform: capitalize;
+
+  cursor: pointer;
+
+  &:last-of-type{
+    margin-right: 0;
+  }
+}

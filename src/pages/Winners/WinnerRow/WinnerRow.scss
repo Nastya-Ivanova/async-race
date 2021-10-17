@@ -1,0 +1,21 @@
+.winners__row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 515px;
+}
+
+.winners__row-item {
+  width: 100px;
+
+  border: 1px solid fff;
+
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+
+  &:last-of-type{
+    width: 200px;
+  }
+}

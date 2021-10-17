@@ -1,0 +1,25 @@
+.winners__title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 515px;
+
+  margin-bottom: 10px;
+}
+
+.winners__table-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 20px;
+
+  border: 1px solid #fff;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  background-color: rgb(255, 230, 92);
+}

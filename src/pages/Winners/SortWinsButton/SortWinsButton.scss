@@ -1,0 +1,21 @@
+#btn-sort-wins {
+  padding: 0;
+
+  background-image: url('asset/arrow-down.svg');
+  background-position: 98% 0;
+  background-repeat: no-repeat;
+
+  font-family: Times New Roman;
+
+  &:last-of-type{
+    width: 200px;
+  }
+}
+
+#btn-sort-wins.sort-desc{
+  background-image: url('asset/arrow-up.svg');
+}
+
+#btn-sort-wins.sort-none{
+  background-image: none;
+}
